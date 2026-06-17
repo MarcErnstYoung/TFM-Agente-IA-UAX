@@ -45,10 +45,10 @@ from psycopg2.extras import RealDictCursor
 # ============================================================
 DB_CONFIG = {
     "host": "localhost",
-    "port": 5432,
+    "port": 1234,
     "database": "alertas_soc",
-    "user": "postgres",
-    "password": "toor1",
+    "user": "postgres_user",
+    "password": "DB_PASSWORD",
 }
 
 # Where the JSON snapshot is written.

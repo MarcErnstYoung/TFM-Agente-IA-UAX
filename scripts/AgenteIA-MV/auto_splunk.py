@@ -40,16 +40,16 @@ urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 # ============================================================
 # CONFIG
 # ============================================================
-SPLUNK_BASE_URL = "https://es.eymsp.splunkcloud.com:8089"
-SPLUNK_TOKEN = "eyJraWQiOiJzcGx1bmsuc2VjcmV0IiwiYWxnIjoiSFM1MTIiLCJ2ZXIiOiJ2MiIsInR0eXAiOiJzdGF0aWMifQ.eyJpc3MiOiJwYWJsby5nb21lei5jYWx2b0Blcy5leS5jb20gZnJvbSBzaC1pLTA4MGQ5MTE2OWQ5NTgxYmY2Iiwic3ViIjoicGFibG8uZ29tZXouY2Fsdm9AZXMuZXkuY29tIiwiYXVkIjoiQUdFTlRfRlBUUCIsImlkcCI6IlNwbHVuayIsImp0aSI6IjNlNTA4NjlmM2QxZTk0OGNlYzBiZjlhYTY5M2M2YzIzZmU0MjdkMzBhM2VjYzg1MTFmYjY5ZWYxYTI2ZTFhOGQiLCJpYXQiOjE3NzEzMjYwMjksImV4cCI6MTgzNDQ0MTE0MywibmJyIjoxNzcxMzI2MDI5fQ.I4nWFbEadyiRePGIU1sueIm2ybrevFOB9KUZyLQSd9QtyGexhuTcVKtD7Kh4yHC_ezk8Xn0rFYTIl9_eqduJEQ"
+SPLUNK_BASE_URL = "https://url.com:1234"
+SPLUNK_TOKEN = "TOKEN"
 VERIFY_TLS = False
 
 DB_CONFIG = {
     "host": "localhost",
-    "port": 5432,
+    "port": 1234,
     "database": "alertas_soc",
-    "user": "postgres",
-    "password": "toor1"
+    "user": "postgres_user",
+    "password": "DB_PASSWORD",
 }
 
 # Tunables del bucle

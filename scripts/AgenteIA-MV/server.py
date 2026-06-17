@@ -8,18 +8,17 @@ import glob
 
 app = Flask(__name__)
 
-# Allow React dev server (port 5173) to call this API
-CORS(app, resources={r"/api/*": {"origins": ["http://localhost:5173", "http://localhost:3000"]}})
+CORS(app, resources={r"/api/*": {"origins": ["http://localhost:1234", "http://localhost:5678"]}})
 
 # ============================================================
 # DB CONFIG
 # ============================================================
 DB_CONFIG = {
     "host": "localhost",
-    "port": 5432,
+    "port": 1234,
     "database": "alertas_soc",
-    "user": "postgres",
-    "password": "toor1"
+    "user": "postgres_user",
+    "password": "DB_PASSWORD",
 }
 
 LOG_DIR = "logs"
